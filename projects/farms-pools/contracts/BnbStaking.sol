@@ -20,7 +20,7 @@ contract BnbStaking is Ownable {
 
     // Info of each user.
     struct UserInfo {
-        uint256 amount; // How many LP tokens the user has provided.
+        uint256 amount; // How many LP tokens the user has providedd.
         uint256 rewardDebt; // Reward debt. See explanation below.
         bool inBlackList;
     }
